@@ -15,10 +15,12 @@ function getWeather() {
             const cityName = document.getElementById('name');
             const description = document.getElementById('description');
             const temperature = document.getElementById('temperature');    
+            const icon = document.getElementById('icon');    
 
             cityName.innerText = `${data.name}, ${data.sys.country}`;
             description.innerText = d.description;
             temperature.innerText = `${Math.floor(data.main.temp)}°C`;
+            icon.setAttribute("src", `https://openweathermap.org/img/wn/${d.icon}@2x.png`);
 
             results.style.display = "block";
             }) 

@@ -87,13 +87,14 @@ nav ul li a:hover {
 
 .result__box h1 {
     backdrop-filter: blur(2px);
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: .3em;
 }
 
 .result__box h3 {
     text-transform: capitalize;
     backdrop-filter: blur(3px);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .result__box .left p {
