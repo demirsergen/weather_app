@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e8e3dc;
+}
+
+header {
+    width: 100vw;
+    background:#dcbc8f;
+
+}
+
+nav {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #514e4e;
+    font-size: 1.5rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.container p {
+    max-width: 70ch;
+}
