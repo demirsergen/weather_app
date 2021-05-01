@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.5    ;
 }
 
 body {
@@ -31,6 +32,10 @@ nav ul li a {
     cursor: pointer;
     color: #514e4e;
     font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+    color: #e8e3dc;
 }
 
 .container {
