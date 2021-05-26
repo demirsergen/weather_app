@@ -6,7 +6,7 @@ const results = document.getElementById('results');
 function getWeather() {
     let city = document.getElementById('city').value;
     const key = '6249bd55b2d2b0d72b056ab31dd5797e';
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`;
 
     fetch(url)
         .then(response => response.json())
